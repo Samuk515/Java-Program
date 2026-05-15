@@ -1,3 +1,5 @@
+package Day3;
+
 public class Q4 {
     static void main(String[] args) {
         int a= 3;
