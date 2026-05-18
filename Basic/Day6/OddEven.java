@@ -1,7 +1,7 @@
 package Day6;
 
 public class OddEven {
-     public static void main(String[] args) {
+      static void main(String[] args) {
        int num = 27;
        if( num % 2 == 0) {
            System.out.println(num + " is Even");
