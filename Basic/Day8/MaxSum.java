@@ -1,7 +1,7 @@
 package Day8;
 
 public class MaxSum {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] scores = {45, 82, 67, 91, 53, 78, 60};
         int sum = 0;
         int max = scores[0];
@@ -14,7 +14,7 @@ public class MaxSum {
         }
         System.out.println();
         System.out.println("Sum  : " + sum);
-        System.out.println("Average:" + (double) sum / scores.lenght);
+        System.out.println("Average:" + (double) sum / scores.length);
         System.out.println("Highest:" + max);
     }
 }
